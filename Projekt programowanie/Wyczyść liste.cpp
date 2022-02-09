@@ -38,6 +38,8 @@ void wyczysc()
 				listafilm.open("listafilm.txt", ios::out | ios::trunc);
 				listafilm.close(); cout << "Usuni©to zawarto˜† kolekcji film¢w" << endl;
 				pytaniafilm.open("pytaniafilm.txt", ios::out | ios::trunc);
+				pytaniafilm << "Pytania film" << endl;
+				pytaniafilm << "  " << endl;
 				pytaniafilm.close();
 				system("pause");
 				break;
@@ -47,6 +49,8 @@ void wyczysc()
 				listaserial.open("listaserial.txt", ios::out | ios::trunc);
 				listaserial.close(); cout << "Usuni©to zawarto˜† kolekcji seriali" << endl;
 				pytaniaserial.open("pytaniaserial.txt", ios::out | ios::trunc);
+				pytaniaserial << "Pytania serial" << endl;
+				pytaniaserial << "  " << endl;
 				pytaniaserial.close();
 				system("pause");
 				break;
@@ -56,6 +60,8 @@ void wyczysc()
 				listaanime.open("listaanime.txt", ios::out | ios::trunc);
 				listaanime.close(); cout << "Usuni©to zawarto˜† kolekcji anime" << endl;
 				pytaniaanime.open("pytaniaanime.txt", ios::out | ios::trunc);
+				pytaniaanime << "Pytania anime" << endl;
+				pytaniaanime << "  " << endl;
 				pytaniaanime.close();
 				system("pause");
 				break;
@@ -68,10 +74,16 @@ void wyczysc()
 				listaanime.open("listaanime.txt", ios::out | ios::trunc);
 				listaanime.close(); cout << "Usuni©to zawarto˜† kolekcji anime" << endl;
 				pytaniafilm.open("pytaniafilm.txt", ios::out | ios::trunc);
+				pytaniafilm << "Pytania film" << endl;
+				pytaniafilm << "  " << endl;
 				pytaniafilm.close();
 				pytaniaserial.open("pytaniaserial.txt", ios::out | ios::trunc);
+				pytaniaserial << "Pytania serial" << endl;
+				pytaniaserial << "  " << endl;
 				pytaniaserial.close();
 				pytaniaanime.open("pytaniaanime.txt", ios::out | ios::trunc);
+				pytaniaanime << "Pytania anime" << endl;
+				pytaniaanime << "  " << endl;
 				pytaniaanime.close();
 				cout << "Usuni©to caˆ¥ kolekcje oraz quizy!!!!" << endl;
 				system("pause");
@@ -97,7 +109,7 @@ void wyczysc()
 			wyczysc();
 		}
 		system("cls");
-		cout << "Czy chces zrobi† co˜ innego?[y/n]: ";
+		cout << "Czy chces zrobi† co˜ innego? Jeœli nie kliknij n, jeœli tak kliknij inny dowlony klawisz: : ";
 		cin >> czy_chcesz_dalej;
 	} while (czy_chcesz_dalej != 'n');
 

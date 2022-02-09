@@ -55,7 +55,7 @@ void wybor_w_quiz()
 				wybor_w_quiz();
 				}
 		system("cls");
-		cout << "Czy chces zrobi† co˜ innego?[y/n]: ";
+		cout << "Czy chces zrobi† co˜ innego? Jeœli nie kliknij n, jeœli tak kliknij inny dowlony klawisz:  ";
 		cin >> czy_chcesz_dalej;
 		} while (czy_chcesz_dalej != 'n');
 
