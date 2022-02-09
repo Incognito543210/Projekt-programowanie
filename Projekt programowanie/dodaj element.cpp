@@ -69,7 +69,7 @@ void dodaj_element()
 				cout << "Podaj dat© premiery[xx miesi¥c xxxx]: ";
 				getline(cin, premiera);
 				cout << endl;
-				cout << "Podaj ˜redni czas trawania filmu w minutach: ";
+				cout << "Podaj œ˜redni czas trawania filmu w minutach: ";
 				getline(cin, czas_trwania);
 				cout << endl;
 
@@ -128,7 +128,7 @@ void dodaj_element()
 				cout << "Podaj ilo˜† odcink¢w: ";
 				cin >> ilosc_odcinkow;
 				cout << endl;
-				cout << "Podaj ˜redni czas trawania jednego odcinka w minutach: ";
+				cout << "Podaj ˜œredni czas trawania jednego odcinka w minutach: ";
 				cin >> czas_trwania;
 				cout << endl;
 
@@ -158,7 +158,7 @@ void dodaj_element()
 				ilosc_odcinkow_seriali.close();
 
 				ilosc_czasu_seriali.open("ilosc-czasu-seriali.txt", ios::out | ios::app);
-				ilosc_czasu_seriali << (ilosc_odcinkow_obliczenia * ilosc_czasu_obliczenia) << endl;
+				ilosc_czasu_seriali << setprecision(2) << (ilosc_odcinkow_obliczenia * ilosc_czasu_obliczenia) << endl;
 				ilosc_czasu_seriali.close();
 
 				break;
@@ -209,7 +209,7 @@ void dodaj_element()
 				listaanime << "Postacie: " << postacie << endl;
 				listaanime << "Aktorzy g?ˆosowi: " << aktorzy_glosowi << endl;
 				listaanime << "Gatunek: " << gatunek << endl;
-				listaanime << "Czas trwania caˆego anime w godzinach: " << (ilosc_odcinkow_obliczenia * ilosc_czasu_obliczenia) / 60 << endl;
+				listaanime << "Czas trwania caˆ³ego anime w godzinach: " << setprecision(2) << (ilosc_odcinkow_obliczenia * ilosc_czasu_obliczenia) / 60 << endl;
 				listaanime << "*************************************" << endl;
 				listaanime.close();
 

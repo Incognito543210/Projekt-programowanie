@@ -5,11 +5,13 @@
 #include "Naglowek.h"
 using namespace std;
 
+
+
 void wyswietl_liste()
 {
 	fstream listaanime, listafilm, listaserial;
 
-	char czy_chcesz_dalej;
+	char czy_chcesz_dalej{};
 	do {
 		system("cls");
 		char wybor_kategoria{};
@@ -170,9 +172,11 @@ void wyswietl_liste()
 	system("cls");
 	wyswietl_liste();
 	}
-		system("cls");
-		cout << "Czy chcesz zrobi† co? innego?[y/n]: ";
-		cin >> czy_chcesz_dalej;
+		
+	system("cls");
+	cout << "Czy chces zrobi† co˜ innego? Jeœli nie kliknij n, jeœli tak kliknij inny dowlony klawisz: ";
+	cin >> czy_chcesz_dalej;
+		
 	} while (czy_chcesz_dalej != 'n');
 	
 	system("pause");
