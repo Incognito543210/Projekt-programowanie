@@ -1,0 +1,9 @@
+#pragma once
+void dodaj_element();
+void menu_glowne();
+void wyswietl_liste();
+void wyczysc();
+void statystyki();
+void wybor_w_quiz();
+void stworz_pytania();
+void zagraj();

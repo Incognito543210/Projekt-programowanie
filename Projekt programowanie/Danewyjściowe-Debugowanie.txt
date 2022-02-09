@@ -1,0 +1,14 @@
+?Projekt programowanie.exe? (Win32): zaˆadowano ?C:\Users\Pumpel\source\repos\Projekt programowanie\Debug\Projekt programowanie.exe?. Symbole zostaˆy zaˆadowane.
+?Projekt programowanie.exe? (Win32): zaˆadowano ?C:\Windows\SysWOW64\ntdll.dll?. 
+?Projekt programowanie.exe? (Win32): zaˆadowano ?C:\Windows\SysWOW64\kernel32.dll?. 
+?Projekt programowanie.exe? (Win32): zaˆadowano ?C:\Windows\SysWOW64\KernelBase.dll?. 
+?Projekt programowanie.exe? (Win32): zaˆadowano ?C:\Windows\SysWOW64\msvcp140d.dll?. 
+?Projekt programowanie.exe? (Win32): zaˆadowano ?C:\Windows\SysWOW64\vcruntime140d.dll?. 
+?Projekt programowanie.exe? (Win32): zaˆadowano ?C:\Windows\SysWOW64\ucrtbased.dll?. 
+?Projekt programowanie.exe? (Win32): zaˆadowano ?C:\Windows\SysWOW64\ucrtbased.dll?. 
+?Projekt programowanie.exe? (Win32): zwolniono ?C:\Windows\SysWOW64\ucrtbased.dll?
+W¥tek 0x8d70 zakoäczyˆ dziaˆanie z kodem -1073741510 (0xc000013a).
+W¥tek 0x8ecc zakoäczyˆ dziaˆanie z kodem -1073741510 (0xc000013a).
+W¥tek 0x9d74 zakoäczyˆ dziaˆanie z kodem -1073741510 (0xc000013a).
+W¥tek 0x9008 zakoäczyˆ dziaˆanie z kodem -1073741510 (0xc000013a).
+Program ?[38352] Projekt programowanie.exe? zakoäczyˆ dziaˆanie z kodem -1073741510 (0xc000013a).

@@ -1,0 +1,14 @@
+Pytania Serial
+
+Ilu jest przyjaci¢ˆ w serialu przyjaciele?
+4
+6
+2
+1
+b
+Ile powod¢w jest w serialu 13 powod¢w?
+2
+14
+13
+5
+c
